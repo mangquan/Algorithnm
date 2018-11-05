@@ -42,6 +42,7 @@ def dfs(nextnode, visited, graphlist):
         temp = temp.next
 
 
+
 graph = Graph(8)
 
 graph.add_edges(0, 1)
@@ -62,8 +63,7 @@ visited = [False]*8
 
 dfs(graph.graphlist[0],visited,graph.graphlist)
 
-for i in visited:
-    print(i)
+
 
 
 
