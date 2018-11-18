@@ -119,7 +119,7 @@ def hamitonian(graph, circleRecord, totalWeight, index):
                 circleRecord[index + 1] = i
                 hamitonian(graph, circleRecord, totalWeight, index + 1)
 
-
+# assume the unconnected pair of vertexs has weight equal to 99
 test = Graph(5, 'Fully')
 
 circle = [0] * 5
